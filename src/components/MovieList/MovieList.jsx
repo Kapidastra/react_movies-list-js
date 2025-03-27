@@ -3,7 +3,7 @@ import './MovieList.scss';
 export const MovieList = ({ movies }) => (
   <div className="movies">
     {movies.map(movie => (
-      <div key={movie.imdb} className="card" data-cy="Movie">
+      <div key={movie.imdbId} className="card" data-cy="Movie">
         <div className="card-image">
           <figure className="image is-4by3">
             <img data-cy="MovieImage" src={movie.imgUrl} alt="Film logo" />
@@ -37,7 +37,6 @@ export const MovieList = ({ movies }) => (
             </a>
           </div>
         </div>
-      </div>
-    ))}
+      </div>))}
   </div>
 );
