@@ -27,7 +27,7 @@ export const MovieList = ({ movies }) => (
 
           <div className="content">
             <p data-cy="MovieDescription">
-              Follows the lives of eight very different couples in dealing with
+              Follows. the lives of eight very different couples in dealing with
               with their love lives in various loosely interrelated tales all
               set during a frantic month before Christmas in London, England.
             </p>

@@ -8,7 +8,7 @@ export const App = () => (
       <MovieList movies={moviesFromServer} />
 
       <div className="sidebar" data-cy="Sidebar">
-        Sidebar will be here
+        Sidebar will be here!
       </div>
     </div>
   </div>

@@ -2,7 +2,7 @@
 
 > DON'T use Typescirpt in this task
 
-You are given movies loaded from the API and initial markup. Your task is to:
+You are given movies loaded from the API and initial markup  Your task is to:
 
 1. Render movies from a given `moviesFromServer` array (for the simplicity, you can do it inside the `App` and split later).
 2.Extract a `.movies` block to a `MovieList` component.
